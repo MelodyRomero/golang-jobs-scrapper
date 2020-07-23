@@ -2,7 +2,9 @@ package model
 
 type JobOffer struct {
 	ID           string
+	Portal       string
 	URL          string
+	LinkText     string
 	Title        string
 	Date         string
 	Location     string

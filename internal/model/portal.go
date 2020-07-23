@@ -1,10 +1,10 @@
 package model
 
 type Portal struct {
-	BaseURL string
-}
-
-var Webs = []*Portal{
-	{},
-	{},
+	Web      string
+	Name     string
+	BaseURL  string
+	JobsURL  string
+	Keywords []string
+	Exclude  []string
 }
